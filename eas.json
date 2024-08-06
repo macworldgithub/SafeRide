@@ -1,0 +1,42 @@
+{
+    "cli": {
+      "version": ">= 0.50.0"
+    },
+    "build": {
+      "development": {
+        "developmentClient": true,
+        "ios": {
+          "simulator": true
+        },
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview": {
+        "ios": {
+          "distribution": "internal",
+          "simulator": false
+        },
+        "android": {
+          "distribution": "internal"
+        }
+      },
+      "production": {
+        "ios": {
+          "distribution": "store"
+        },
+        "android": {
+          "buildType": "app-bundle"
+        }
+      },
+      "adhoc": {
+        "ios": {
+          "distribution": "internal"
+        },
+        "android": {
+          "buildType": "apk"
+        }
+      }
+    }
+  }
+  

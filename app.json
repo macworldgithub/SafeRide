@@ -1,0 +1,23 @@
+{
+  "name": "Safe Rides Unlimited",
+  "displayName": "Safe Rides Unlimited",
+  "expo": {
+    "jsEngine": "hermes",
+    "name": "Safe Rides Unlimited",
+    "version": "1.0.1",
+    "extra": {
+      "eas": {
+        "projectId": "6f1862b7-ca14-4cd6-9307-257a73d174b1"
+      }
+    },
+    "splash": {
+      "image": "./src/assets/images/splash-bg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportTablet": false,
+      "buildNumber": "3"
+    }
+  }
+}
